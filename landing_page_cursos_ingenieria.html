@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cursos de Ingeniería Industrial</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background-color: #003366; color: white; text-align: center; padding: 2em 1em; }
+    section { padding: 2em; }
+    .cta-button { background-color: #007acc; color: white; padding: 1em 2em; text-decoration: none; border-radius: 5px; }
+    .course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5em; }
+    .course-card { border: 1px solid #ccc; padding: 1em; border-radius: 8px; }
+    form input, form select, form textarea { width: 100%; padding: 0.8em; margin-bottom: 1em; }
+    form button { background-color: #007acc; color: white; padding: 1em; border: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Impulsa tu carrera con nuestros cursos de ingeniería</h1>
+  <p>Capacitación técnica especializada en automatización, control, mecánica e instrumentación</p>
+  <a href="#catalogo" class="cta-button">Ver catálogo completo</a>
+</header>
+
+<section>
+  <h2>¿Por qué elegirnos?</h2>
+  <ul>
+    <li>Certificación avalada por expertos del sector</li>
+    <li>Modalidades presencial y virtual</li>
+    <li>Instructores con experiencia en campo</li>
+    <li>Acceso a laboratorios y simuladores</li>
+  </ul>
+</section>
+
+<section id="catalogo">
+  <h2>Cursos destacados</h2>
+  <div class="course-grid">
+    <div class="course-card">
+      <h3>Automatización con PLC Allen Bradley</h3>
+      <p>Desde nivel básico hasta avanzado con Studio 5000.</p>
+    </div>
+    <div class="course-card">
+      <h3>Control de Motores y Variadores</h3>
+      <p>Aprende a configurar y mantener sistemas de control eléctrico.</p>
+    </div>
+    <div class="course-card">
+      <h3>Instrumentación y Control de Procesos</h3>
+      <p>Domina sensores, transmisores y controladores industriales.</p>
+    </div>
+    <div class="course-card">
+      <h3>Mecánica Industrial</h3>
+      <p>Capacitación en bombas, mantenimiento y sistemas hidráulicos.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Solicita más información</h2>
+  <form>
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="correo" placeholder="Tu correo electrónico" required>
+    <select name="curso">
+      <option value="">Selecciona un curso</option>
+      <option>PLC Allen Bradley</option>
+      <option>Control de Motores</option>
+      <option>Instrumentación</option>
+      <option>Mecánica Industrial</option>
+    </select>
+    <textarea name="mensaje" placeholder="Mensaje adicional (opcional)"></textarea>
+    <button type="submit">Enviar solicitud</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Cursos de Ingeniería | Contacto: info@tucentrodeformacion.com</p>
+</footer>
+
+</body>
+</html>
